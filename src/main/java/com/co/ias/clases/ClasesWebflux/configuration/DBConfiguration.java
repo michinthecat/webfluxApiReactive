@@ -19,7 +19,7 @@ public class DBConfiguration extends AbstractR2dbcConfiguration {
         return new PostgresqlConnectionFactory(
                 PostgresqlConnectionConfiguration
                         .builder()
-                        .host("rdslist4100.czq1dhhdewlx.us-east-1.rds.amazonaws.com")
+                        .host("private.amazonaws.com")
                         .port(5432)
                         .username("MichinTheCat")
                         .password("MichinTheCat")
